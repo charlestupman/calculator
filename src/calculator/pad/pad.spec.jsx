@@ -19,4 +19,7 @@ describe('screen component', () => {
 	it('should import Numbers', () => {
 		expect(wrapper.find('Numbers').length).toBe(1)
 	})
+	it('should render correctly', () => {
+		expect(wrapper).toMatchSnapshot()
+	})
 })

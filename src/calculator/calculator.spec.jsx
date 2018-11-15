@@ -133,4 +133,7 @@ describe('calculator', () => {
 			expect(wrapper.state()).toMatchObject({ screenValue: '5' })
 		})
 	})
+	it('should render correctly', () => {
+		expect(wrapper).toMatchSnapshot()
+	})
 })

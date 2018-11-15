@@ -15,4 +15,7 @@ describe('screen component', () => {
 		wrapper = shallow(<Screen screenValue={mockValue} />)
 		expect(wrapper.text()).toEqual(mockValue)
 	})
+	it('should render correctly', () => {
+		expect(wrapper).toMatchSnapshot()
+	})
 })

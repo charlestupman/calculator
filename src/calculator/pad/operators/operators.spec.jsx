@@ -13,4 +13,13 @@ describe('screen component', () => {
 	it('should render 5 buttons', () => {
 		expect(wrapper.find('Button').length).toBe(5)
 	})
+	it('should render correctly', () => {
+		expect(wrapper).toMatchSnapshot()
+	})
+	it('should render correctly', () => {
+		expect(wrapper).toMatchSnapshot()
+	})
+	it('should render correctly', () => {
+		expect(wrapper).toMatchSnapshot()
+	})
 })

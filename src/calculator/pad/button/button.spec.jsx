@@ -21,4 +21,7 @@ describe('screen component', () => {
 		wrapper.simulate('click')
 		expect(mockOperation).toHaveBeenCalledTimes(1)
 	})
+	it('should render correctly', () => {
+		expect(wrapper).toMatchSnapshot()
+	})
 })
