@@ -1,0 +1,8 @@
+.numbers {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.numbers > div {
+  flex-basis: 25%;
+}
