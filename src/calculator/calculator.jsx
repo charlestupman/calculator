@@ -4,6 +4,7 @@ import { Pad } from './pad'
 import { Screen } from './screen'
 import { operatorLibrary } from './services'
 import styles from './calculator.scss'
+import logo from '../images/logo.svg'
 
 export class Calculator extends React.Component {
 	constructor(props) {
@@ -74,6 +75,7 @@ export class Calculator extends React.Component {
 		const { screenValue } = this.state
 		return (
 			<div className={styles.frame}>
+				<img src={logo} alt="logo" />
 				<Screen screenValue={screenValue} />
 				<Pad
 					updateScreenValue={this.updateScreenValue}

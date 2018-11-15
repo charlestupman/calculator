@@ -25,6 +25,9 @@ describe('calculator', () => {
 	it('should be wrapped in a div', () => {
 		expect(wrapper.find('div').length).toBe(1)
 	})
+	it('should have equal experts logo', () => {
+		expect(wrapper.find('img').length).toBe(1)
+	})
 	it('should have method for updating screen value', () => {
 		expect(instance.updateScreenValue).toBeDefined()
 	})
