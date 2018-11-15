@@ -1,0 +1,14 @@
+$frame-max-width: 260px;
+$text-color: white;
+$background-color: black;
+$font-size: 30px;
+$font: sans-serif;
+
+.frame {
+  max-width: $frame-max-width;
+  margin: 0 auto;
+  background: $background-color;
+  color: $text-color;
+  font-size: $font-size;
+  font-family: $font;
+}
